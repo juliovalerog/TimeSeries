@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Generated outputs
+reports/*.png
+reports/*.svg
+reports/*.html
+data/processed/*.parquet
+data/processed/*.feather
+notebooks/lightning_logs/
